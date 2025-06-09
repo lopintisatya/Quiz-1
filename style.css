@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://st4.depositphotos.com/23208318/39590/v/450/depositphotos_395906966-stock-illustration-quiz-seamless-pattern-question-marks.jpg') no-repeat center center fixed, linear-gradient(to right, #f2994a, #f2c94c); 
+    background-size: cover; /* Ensures the image covers the whole screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* Set text color to white for better readability */
+  }
+  
+  .quiz-container {
+    background: rgba(255, 247, 234, 0.1); /* Slight transparency for background */
+    border-radius: 16px;
+    padding: 30px 40px;
+    width: 400px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: #333;
+     opacity: 1.5;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #4c2409;
+  }
+  
+  .option {
+    margin: 12px 0;
+    padding: 12px 16px;
+    background-color: #f09ec0;
+    border: 2px solid #e6acbd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #c4dcf5;
+  }
+  
+  .option.correct {
+    background-color: #c8e6c9; /* soft green */
+    border-color: #81c784;
+color: #2e7d32;
+  }
+  
+  .option.wrong {
+    background-color: #ffcdd2; /* soft red */
+    border-color: #e57373;
+    color: #c62828;
+  }
+  
+  #next-btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    color: rgb(34, 10, 10);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #next-btn:hover {
+    background-color: #c4dcf5;
+  }
+  
+  #result h2 {
+    color: #cc526e;
+    font-size: 22px;
+ margin-top: 20px;
+  }
+                
